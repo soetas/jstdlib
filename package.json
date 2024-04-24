@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "vitest --run",
     "prepare": "husky"
@@ -17,6 +17,10 @@
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.12.7",
     "eslint": "^9.1.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
     "husky": "^9.0.11",
     "jsdom": "^24.0.0",
     "prettier": "^3.2.5",
