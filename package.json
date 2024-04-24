@@ -10,6 +10,10 @@
   "author": "sgk",
   "license": "ISC",
   "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.12.7",
+    "jsdom": "^24.0.0",
+    "rollup": "^4.16.4",
     "typescript": "^5.4.5",
     "vitest": "^1.5.1"
   }
