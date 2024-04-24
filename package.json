@@ -1,0 +1,16 @@
+{
+  "name": "jstdlib",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "keywords": [],
+  "author": "sgk",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.1"
+  }
+}
