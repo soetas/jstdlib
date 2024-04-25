@@ -1,4 +1,4 @@
-import { type RollupOptions } from 'rollup'
+import { type RollupOptions } from 'rollup' 
 
 export default {
   

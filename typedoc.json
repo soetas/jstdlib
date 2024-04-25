@@ -1,0 +1,7 @@
+{
+  "entryPoints":[
+    "lib/array/index.ts", 
+    "lib/builtin/index.ts"
+  ],
+  "out":"docs"
+}

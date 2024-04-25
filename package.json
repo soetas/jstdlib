@@ -5,8 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "vitest --run",
-    "prepare": "husky"
+    "test": "vitest --run --dir test",
+    "prepare": "husky",
+    "doc":"typedoc && http-server ./docs",
+    "build":"rollup -c"
   },
   "keywords": [],
   "author": "sgk",
@@ -25,6 +27,7 @@
     "jsdom": "^24.0.0",
     "prettier": "^3.2.5",
     "rollup": "^4.16.4",
+    "typedoc": "^0.25.13",
     "typescript": "^5.4.5",
     "vitest": "^1.5.1"
   }
